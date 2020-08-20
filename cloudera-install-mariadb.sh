@@ -11,8 +11,8 @@ systemctl enable mariadb --now
 echo "Securing Installation of MariaDB....."
 echo "
 Y
-test
-test
+cloudera
+cloudera
 Y
 Y
 Y
@@ -22,7 +22,7 @@ echo "MariaDB secured!"
 
 # Create Databases, Users and set Privileges
 echo "Creating Databases, Users and setting Privileges....."
-mysql -u root -plipovnik << SQL_COMMANDS
+mysql -u root -pcloudera << SQL_COMMANDS
 CREATE DATABASE scm;
 CREATE DATABASE hive;
 CREATE DATABASE oozie;
