@@ -14,7 +14,7 @@ sudo yum -y install cloudera-manager-server
 # Configure DB
 sudo systemctl stop cloudera-scm-server
 #CM5
-/usr/share/cmf/schema/scm_prepare_database.sh mysql -h localhost scm root cloudera
+#/usr/share/cmf/schema/scm_prepare_database.sh mysql -h localhost scm root cloudera
 #CM6
 /opt/cloudera/cm/schema/scm_prepare_database.sh mysql -h localhost scm root cloudera
 # Start CM

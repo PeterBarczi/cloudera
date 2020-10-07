@@ -79,4 +79,4 @@ echo "cloudera-manager6.repo"
 cat /var/tmp/cloudera-manager6.repo
 echo
 echo "cloudera-cdh6.repo"
-cat /etc/yum.repos.d/cloudera-cdh6.repo
+cat /var/tmp/cloudera-cdh6.repo
